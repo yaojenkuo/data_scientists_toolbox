@@ -19,7 +19,7 @@
 conda env create -f environment.yml
 ```
 
-- 將 `data/` 資料夾中的 `kaggle_survey_2020_responses.csv`, `kaggle_survey_2021_responses.csv`, `kaggle_survey_2022_responses.csv` 置放於工作目錄中的 `data/` 資料夾。
+- 前往 [2020 Kaggle Machine Learning & Data Science Survey](https://www.kaggle.com/competitions/kaggle-survey-2020)、[2021 Kaggle Machine Learning & Data Science Survey](https://www.kaggle.com/competitions/kaggle-survey-2021) 與 [2022 Kaggle Machine Learning & Data Science Survey](https://www.kaggle.com/competitions/kaggle-survey-2022) 分別下載 `kaggle_survey_2020_responses.csv`, `kaggle_survey_2021_responses.csv`, `kaggle_survey_2022_responses.csv` 置放於工作目錄中的 `data/` 資料夾。
 - 啟動環境並執行 `python create_kaggle_survey_db.py` 就能在 `data/` 資料夾中建立 `kaggle_survey.db`
 - 啟動環境並執行 `python create_longitudinal_analysis_plots.py` 就能輸出六組水平長條圖。
 
